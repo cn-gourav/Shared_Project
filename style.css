@@ -4,62 +4,94 @@
     box-sizing: border-box;
 }
 
-.my-bg{
- background-color: rgb(162, 144, 6);
+.navbar .compare {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.imgcontainer{
+.headingTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: rgb(162, 144, 6);
+}
+
+.imgcontainer {
     height: 100vh;
     width: 100%;
 }
 
-.img{
+.img {
     height: 100%;
     width: 100%;
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-              url('rabbit.jpeg');
-   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('rabbit.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
-img{
-     width: 100%;
+img {
+    width: 100%;
 }
 
-.font{
+.font {
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
     color: white;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 30px;
 }
 
-.font h1{
-         color: wheat;
-        font-size: 60px;
-        font-weight: 900;
+.font h1 {
+    color: wheat;
+    font-size: 2.5rem;
+    font-weight: 900;
 
 }
 
-.cardspage{
+.font p {
+    font-size: 1rem;
+    color: rgb(171, 167, 167);
+    text-transform: capitalize;
+}
+
+.cardspage {
     width: 100%;
     height: 60vh;
 }
 
-.map{
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.card-text {
+    font-size: .8rem;
+    color: gray;
+}
+
+.map {
     text-align: center;
-
 }
 
-.map span{
-    border-bottom: 4px solid green;
-    font-size: 50px;
-    font-weight: 30px;
-   
+.map h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+    text-transform: capitalize;
 }
 
+.map h1 span {
+    border-bottom: 4px solid #2a9d8f;
+}
+
+.map p {
+    font-size: .8rem;
+}

@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+
     <!-- link stylesheet  -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -17,7 +20,6 @@
 
     <title>Bootstrap Project</title>
     </head>
-
 
     <body>
         <!-- Page1 -->
@@ -68,7 +70,55 @@
             </div>
         </div>
 
+        <!-- Page2 -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5">
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./panda.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./rabbit.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./panda.jpeg" class="d-block  w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
+
+        <!-- Page3 -->
+
+        <!-- Page4 -->
         <div class="cardspage d-flex justify-content-center align-content-center h-100">
             <div class="page3 container d-flex gap-5 justify-content-center  mt-5 row">
 
@@ -108,7 +158,8 @@
             </div>
         </div>
 
-        <div class="map container">
+        <!-- Page5 -->
+        <div class="map container mb-4 mt-4">
             <h1><span>Find us</span></h1>
             <p>Lorem ipsum dolor sit amet, velit dolore? Illo consequatur dolorum sequi? Eos accusamus iusto rem ullam
                 voluptatibus enim a id molestiae deserunt itaque.</p>
@@ -118,24 +169,64 @@
                 referrerpolicy="no-referrer-when-downgrade" class="rounded-5">
             </iframe>
         </div>
-        </div>
 
-        </div>
-
-
-
-
-
-        <!-- Page2 -->
-
-        <!-- Page3 -->
-
-        <!-- Page4 -->
-
-        <!-- Page5 -->
 
         <!-- Page6 -->
-
+        <footer id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <h3 class="mb-4"><i class="fa-solid fa-tree"></i>National Zoological Park</h3>
+                        <p>Dedicated to wildlife conservation, education, and providing unforgettable experiences for
+                            visitors of all ages. Join us in our mission to protect biodiversity for future generations.
+                        </p>
+                        <div class="social-icons mt-4">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4">
+                        <div class="footer-links">
+                            <h5>Quick Links</h5>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#animals">Animals</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#map">Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-links">
+                            <h5>Visitor Info</h5>
+                            <ul>
+                                <li><a href="#">Plan Your Visit</a></li>
+                                <li><a href="#">Zoo Map</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Animal Experiences</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-links">
+                            <h5>Contact Us</h5>
+                            <ul>
+                                <li><i class="bi bi-geo-alt me-2"></i> National Zoological Park</li>
+                                <li><i class="bi bi-telephone me-2"></i>(+91) 987-654-3210</li>
+                                <li><i class="bi bi-envelope me-2"></i> info@wildscapezoo.com</li>
+                                <li><i class="bi bi-clock me-2"></i> 9:00 AM - 6:00 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2025 National Zoological Park. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
 
 
         <!-- bootstrap cdn js  -->

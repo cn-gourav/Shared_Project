@@ -60,6 +60,7 @@ img {
     font-size: 1rem;
     color: rgb(171, 167, 167);
     text-transform: capitalize;
+    text-align: center;
 }
 
 .cardspage {
@@ -94,4 +95,80 @@ img {
 
 .map p {
     font-size: .8rem;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.feature-box:hover {
+    background: rgba(42, 157, 143, 0.1);
+    transform: translateY(-5px);
+}
+
+.about-content {
+    padding-left: 30px;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    padding: 70px 0 25px;
+}
+
+.footer-links h5 {
+    color: #e9c46a;
+    margin-bottom: 25px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e9c46a;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 25px;
+    margin-top: 50px;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
 }
